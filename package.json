@@ -1,0 +1,44 @@
+{
+  "name": "api-box",
+  "version": "1.0.0",
+  "description": "one api to rule all",
+  "main": "app/server.js",
+  "author": "Graeme Chidgey",
+  "license": "ISC",
+  "scripts": {
+    "start": ""
+  },
+  "engines": {
+    "node": "0.12.7",
+    "npm": "2.14.2"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-load-plugins": "^1.3.0",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-util": "^3.0.7",
+    "jwt-simple": "^0.5.0",
+    "mongoose": "^4.6.5",
+    "morgan": "^1.7.0",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.1.0",
+    "yargs": "^6.2.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.8.1",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-plugin-import": "^2.1.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.4.1",
+    "karma": "^1.1.2",
+    "karma-chai": "^0.1.0",
+    "karma-mocha": "^1.0.1",
+    "mocha": "^3.0.2",
+    "supertest": "^2.0.0"
+  }
+}
