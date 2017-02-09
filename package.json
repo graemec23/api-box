@@ -6,7 +6,7 @@
   "author": "Graeme Chidgey",
   "license": "ISC",
   "scripts": {
-    "start": ""
+    "start": "node app/server.js"
   },
   "engines": {
     "node": "0.12.7",
@@ -30,15 +30,16 @@
   },
   "devDependencies": {
     "chai": "^3.5.0",
+    "env": "0.0.2",
     "eslint": "^3.8.1",
-    "eslint-config-airbnb": "^12.0.0",
+    "eslint-config-airbnb": "^14.1.0",
     "eslint-plugin-import": "^2.1.0",
-    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "^6.4.1",
     "karma": "^1.1.2",
     "karma-chai": "^0.1.0",
     "karma-mocha": "^1.0.1",
     "mocha": "^3.0.2",
-    "supertest": "^2.0.0"
+    "supertest": "^3.0.0"
   }
 }

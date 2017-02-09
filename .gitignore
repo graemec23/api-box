@@ -1,5 +1,8 @@
-node_modules/
-.idea/
-*iml
-*.iws
+npm-debug.log
+/node_modules
+/.idea/
+*.DS_Store
+.DS_Store
+.env
 todo.txt
+.editorconfig
