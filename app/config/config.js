@@ -1,7 +1,8 @@
 const path = require('path');
 
 const rootPath = path.join(__dirname, '/../../');
-const JWT = process.env.JWT || 'slacker';
+const JWT = process.env.JWT;
+const GETADDRESSKEy = process.env.JWT;
 
 module.exports = {
   test: {
@@ -23,7 +24,7 @@ module.exports = {
   },
 
   production: {
-    db: 'mongodb://graeme:dental12345@ds043168.mlab.com:43168/rtestersrock',
+    db: process.env.DB_URL,
     rootPath: rootPath,
     port: process.env.PORT || 80,
     secrets: {
